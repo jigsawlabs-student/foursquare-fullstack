@@ -1,11 +1,11 @@
 from flask import Flask
-from .db import get_db
-from .orm import *
-from .category import Category
-from .venue import Venue
-
 import simplejson as json
-
+from flask import request
+import squawk
+import squawk.src as src
+import squawk.src.models as models
+import squawk.src.adapters as adapters
+import squawk.src.db as db
 
 def create_app(database='foursquare_development', testing = False, debug = True):
     """Create and configure an instance of the Flask application."""
@@ -22,39 +22,30 @@ def create_app(database='foursquare_development', testing = False, debug = True)
 
     @app.route('/venues')
     def venues():
-        conn = get_db()
+        conn = db.get_db()
         cursor = conn.cursor()
-        cursor.execute('SELECT * FROM venues;')
-        records = cursor.fetchall()
-        venues = build_from_records(Venue, records)
+
+        venues = db.find_all(models.Venue, cursor)
+        venue_dicts = [venue.__dict__ for venue in venues]
+        return json.dumps(venue_dicts, default = str)
+
+    @app.route('/venues/search')
+    def search_venues():
+        conn = db.get_db()
+        cursor = conn.cursor()
+
+        params = dict(request.args)
+        venues = models.Venue.search(params, cursor)
         venue_dicts = [venue.__dict__ for venue in venues]
         return json.dumps(venue_dicts, default = str)
 
     @app.route('/venues/<id>')
-    def restaurant(id):
-        conn = get_db()
+    def venue(id):
+        conn = db.get_db()
         cursor = conn.cursor()
-        cursor.execute('SELECT * FROM venues WHERE id = %s;', (id,))
-        record = cursor.fetchone()
-        venue = build_from_record(Venue, record)
+        venue = db.find(models.Venue, id, cursor)
 
         return json.dumps(venue.__dict__, default = str)
-
-    @app.route('/categories')
-    def categories():
-        conn = get_db()
-        cursor = conn.cursor()
-        categories = find_all(Category, cursor)
-        category_dicts = [category.__dict__ for category in categories]
-        return json.dumps(category_dicts, default = str)
-
-    @app.route('/categories/<id>')
-    def category(id):
-        conn = get_db()
-        cursor = conn.cursor()
-        category = find(Category, id, cursor)
-
-        return json.dumps(category.__dict__, default = str)
 
     return app
 
