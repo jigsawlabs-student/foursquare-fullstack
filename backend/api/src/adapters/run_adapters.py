@@ -7,9 +7,7 @@ class RequestAndBuild:
     def __init__(self):
         self.client = adapters.Client()
         self.builder = adapters.Builder()
-        self.conn = psycopg2.connect(database = 'foursquare_development', 
-                user = 'postgres', 
-                password = 'postgres')
+        self.conn = db.conn
         self.cursor = self.conn.cursor()
 
 
