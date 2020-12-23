@@ -11,7 +11,7 @@ def build_city_state(city_name = '', state_name = ''):
     state = find_or_create_by_name(src.State, state_name, conn, cursor)
     city = find_by_name(src.City, city_name, cursor)
     if not city:
-        city = City(name = state_name, state_id = state.id)
+        city = City(name = city_name, state_id = state.id)
         save(city, conn, cursor)
     return city, state
 
