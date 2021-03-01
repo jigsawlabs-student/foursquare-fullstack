@@ -49,6 +49,13 @@ def create_app():
 
         return json.dumps(venue.__dict__, default = str)
 
+    @app.route('/categories')
+    def categories():
+        conn = db.get_db()
+        cursor = conn.cursor()
+        categories = models.Category.avg_ratings(cursor)
+        return json.dumps(categories, default = str)
+
     return app
 
 
