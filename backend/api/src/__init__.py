@@ -49,7 +49,6 @@ def create_app():
 
         return json.dumps(venue.__dict__, default = str)
 
-
     return app
 
 

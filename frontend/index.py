@@ -1,13 +1,27 @@
 import streamlit as st
+
 import requests
 import plotly.graph_objects as go
 import pandas as pd
 API_URL = "http://127.0.0.1:5000/venues/search"
-
+CATGEORIES_URL = "http://127.0.0.1:5000/categories"
 
 def find_venues(price):
     response = requests.get(API_URL, params = {'price': price})
     return response.json()
+
+def find_categories():
+    response = requests.get(CATEGORIES_URL, params = {'price': price})
+    return response.json()
+
+
+def category_names(categories):
+    return [category['name'] for category in category]
+
+def category_ratings(categories):
+    return [category['rating'] for category in category]
+
+
 
 
 def venue_names(venues, requires_rating = False):

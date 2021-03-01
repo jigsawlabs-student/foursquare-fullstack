@@ -8,7 +8,7 @@ class Category:
     def __init__(self, **kwargs):
         for key in kwargs.keys():
             if key not in self.columns:
-                raise f'{key} not in {self.columns}' 
+                raise f'{key} not in {self.columns}'
         for k, v in kwargs.items():
             setattr(self, k, v)
 
@@ -29,6 +29,19 @@ class Category:
             db.save(new_category, conn, cursor)
             category = self.find_by_name(name, cursor)
         return category
+
+    @classmethod
+    def avg_ratings(self, cursor):
+        categories_query = """SELECT categories.name, ROUND(AVG(venues.rating), 2) as avg_rating FROM venues 
+        JOIN venue_categories ON venues.id = venue_categories.venue_id 
+        JOIN categories ON categories.id = venue_categories.category_id
+        GROUP BY categories.name
+        HAVING AVG(venues.rating) IS NOT NULL
+        ORDER BY avg_rating DESC;
+        """
+        cursor.execute(categories_query)
+        records = cursor.fetchall()
+        return [dict(zip(['name', 'rating'], record)) for record in records]
 
     def venues(self, cursor):
         venues_query = """SELECT venues.* FROM venues 
