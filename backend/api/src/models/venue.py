@@ -47,8 +47,6 @@ class Venue():
         if location:
             location_dict = {'lon': location.longitude, 'lat': location.latitude, 'address': location.address}
             venue_json['location'] = location_dict
-        if len(categories) > 0:
-            venue_json['category'] = categories[0].name
         return venue_json
 
 

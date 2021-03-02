@@ -7,20 +7,12 @@ def find_venues(price):
     return response.json()
 
 
-def find_categories():
-    response = requests.get(CATEGORY_URL)
-    return response.json()
 
 def venue_names(venues, requires_rating = False):
     if requires_rating:
         venues = [venue for venue in venues if venue['rating'] != -99]
     return [venue['name'] for venue in venues]
 
-def category_names(categories):
-    return [category['name'] for category in categories]
-
-def category_ratings(categories):
-    return [category['rating'] for category in categories]
 
 def venue_ratings(venues, requires_rating = False):
     if requires_rating:
@@ -36,7 +28,3 @@ def category_colors(venues):
     colors = [color_map.get(category, 'gray') for category in categories]
     return colors
 
-def venue_likes_and_names(venues):
-    likes = [venue['likes'] for venue in venues if venue.get('likes')]
-    names = [venue['name'] for venue in venues if venue.get('name')]
-    return (likes, names)
