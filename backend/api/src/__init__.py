@@ -3,7 +3,7 @@ import simplejson as json
 from flask import request
 
 import api.src.models as models
-import api.src.db as db
+import api.src.db.db as db
 from settings import DB_USER, DB_NAME, DB_HOST, DB_PASSWORD, DEBUG, TESTING
 
 def create_app():

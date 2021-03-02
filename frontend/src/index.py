@@ -10,7 +10,7 @@ venues = find_venues(price)
 categories = find_categories()
 
 st.write('Categories')
-scatter = go.Scatter(x = category_names(categories, True), y = category_ratings(categories, True), mode = 'markers')
+scatter = go.Scatter(x = category_names(categories), y = category_ratings(categories), mode = 'markers')
 fig = go.Figure(scatter)
 st.plotly_chart(fig)
 

@@ -1,0 +1,135 @@
+id,foursquare_id,name,price,rating,likes,menu_url,created_at
+53,,Los Tacos Al Pastor,1,,,,2020-12-22 18:37:39.384899
+54,1234,Grimaldis,2,2,3,grimaldis.com,2020-12-22 18:37:39.395055
+55,9923,Cafe Mogador,3,4,15,cafemogador.com,2020-12-22 18:37:39.398467
+56,9912,Zahavs,4,5,100,zahavs.com,2020-12-22 18:37:39.401443
+57,5b2932a0f5e9d70039787cf2,Los Tacos Al Pastor,1,8.0,52,https://www.seamless.com/menu/los-tacos-al-pastor-141a-front-st-brooklyn/857049,2020-12-22 20:03:09.608827
+58,5196b9ff498e8a6be4336a03,Los Tacos No. 1,2,9.4,1555,https://www.seamless.com/menu/los-tacos-no-1-75-9th-ave-new-york/2180543,2020-12-22 20:03:09.636139
+59,5209469f11d2d4f85e5b7427,Tacos Cuautla Morelos,1,8.0,94,https://www.seamless.com/menu/tacos-cuautla-morelos-438-e-9th-st-new-york/791834,2020-12-22 20:03:09.85916
+60,4c9521df82b56dcbc5fbd5aa,Tacos El Bronco,1,8.7,173,"",2020-12-22 20:03:10.052912
+61,53aefe43498ec970f3cf4aea,Country Boys Tacos,1,,0,"",2020-12-22 20:03:10.278035
+62,55bec538498eb47f902f7f9a,Los Tacos Mcondo,2,8.0,89,https://www.seamless.com/menu/mcondo-los-tacos-502-grand-st-brooklyn/313344,2020-12-22 20:03:10.472454
+63,5d5f24ec09484500079aee00,Los Tacos No. 1,1,9.3,84,https://www.seamless.com/menu/los-tacos-no-1-tribeca-136-church-st-new-york/2180700,2020-12-22 20:03:10.734396
+64,4a32b199f964a520779a1fe3,Tacos Nuevo Mexico,1,6.3,31,https://www.seamless.com/menu/nuevo-mexico-restaurant-489-5th-ave-brooklyn/66792,2020-12-22 20:03:10.942853
+65,4a87839bf964a520940420e3,Tacos El Bronco,1,8.9,115,"",2020-12-22 20:03:11.148926
+66,4a70d71cf964a52093d81fe3,Tacos El Idolo,1,7.5,35,"",2020-12-22 20:03:11.345717
+67,5d5b477d88ba35000852447c,Tacos Vs Burritos,1,,1,"",2020-12-22 20:03:11.587491
+68,4b034e11f964a520764e22e3,Tacos Dalia,1,,2,"",2020-12-22 20:03:11.800454
+69,4ad2c7d1f964a520aee220e3,Tacos El Idolo (Un golazo de sabor),1,,2,"",2020-12-22 20:03:12.015717
+70,4cdee53af8cdb1f7c7218e12,Choncho's Tacos @ Brooklyn Flea,,,0,"",2020-12-22 20:03:12.210027
+71,56bd24e4498e32b766ce277a,Tacos Times Square,2,8.2,25,https://www.seamless.com/menu/tacos-times-square-tacos-grand-central-134-e-27th-st-new-york/314594,2020-12-22 20:03:12.428174
+72,5ee693930c2cb300086cd81f,Chinelos Birria Tacos,1,,1,"",2020-12-22 20:03:12.632856
+73,5722c5ad498e3ca50d923596,Tacos Morelos,1,,0,"",2020-12-22 20:03:12.841341
+74,57f7e1b2498ecadc38d0dff6,Tacos Cholula,1,,1,"",2020-12-22 20:03:13.074238
+75,4c28062c97d00f47a2583fea,Paco's Taco's,1,,0,"",2020-12-22 20:03:13.350971
+76,594cc219135b395f126c8b5a,Tacos Cholula,1,,2,"",2020-12-22 20:03:13.526694
+77,4e3833dfd4c0dc7ad2ed9987,Tacos Y Quesadillas Mexico Cart,1,7.3,14,"",2020-12-22 20:03:13.763864
+78,57f7d404cd10bc661478f274,El Super Tacos,1,7.4,6,"",2020-12-22 20:03:13.975761
+79,5df3c17ea737c000081a9cf0,Tacos El Poblanito,1,,0,https://www.seamless.com/menu/tacos-el-poblanito-57-jay-st-brookyln/1938482,2020-12-22 20:03:14.162929
+80,4b53a97cf964a520cfa627e3,Super Tacos Truck,1,6.9,23,"",2020-12-22 20:03:14.359789
+81,5a01bc908496ca58fd7d3389,King David Tacos,1,7.4,16,"",2020-12-22 20:03:14.563956
+82,4bf6bbeab182c9b68c66745a,Tacos El Ranchero:  Mobile Food Truck,1,,4,"",2020-12-22 20:03:14.759429
+83,4bfdf6cbf7c82d7fea068f04,Tacos El Gallo Giro,1,8.3,16,"",2020-12-22 20:03:14.994052
+84,4adfa2e7f964a520607c21e3,Tacos Mexico Restaurant,1,6.4,10,https://www.seamless.com/menu/tacos-mexico-3208-38th-st-astoria/71449,2020-12-22 20:03:15.205771
+85,4a7cd20df964a520c5ed1fe3,Tacos Nuevo Mexico III,1,,0,"",2020-12-22 20:03:15.407895
+86,4bb9589db35776b0ade2c901,Tacos y Quesadillas Mexico,1,7.6,9,"",2020-12-22 20:03:15.616375
+87,50ca6337e4b04e1f3135689c,Juliana's Pizza,2,8.9,1009,"",2021-01-09 15:25:58.216745
+88,49bfceb0f964a52028551fe3,Ignazio's Pizza,1,6.4,110,https://www.seamless.com/menu/ignazios-pizza-4-water-st-brooklyn/294372,2021-01-09 15:25:58.477456
+89,4aa69424f964a5203c4a20e3,Fascati Pizza,1,7.6,64,"",2021-01-09 15:25:58.718456
+90,49c7ce82f964a520c3571fe3,Front Street Pizza,1,6.9,167,https://www.seamless.com/menu/front-street-pizza-80-front-st-brooklyn/66767,2021-01-09 15:25:58.971279
+91,4f045eeb00399761c77301e3,Prince Street Pizza,1,9.2,1442,https://www.seamless.com/menu/prince-st-pizza-27-prince-st-new-york/264357,2021-01-09 15:25:59.220615
+92,4a4560a7f964a5201aa81fe3,Harry's Italian Pizza Bar,3,7.8,316,https://www.seamless.com/menu/harrys-italian-2-gold-street-new-york/2479879,2021-01-09 15:25:59.522494
+93,4a455daff964a52014a81fe3,Adrienne's Pizza Bar,2,8.4,607,"",2021-01-09 15:25:59.860359
+94,4aad3536f964a520035f20e3,MontyQ's Brick Oven Pizza,2,6.4,58,https://www.seamless.com/menu/monty-qs-158-montague-st-brooklyn/85392,2021-01-09 15:26:00.170856
+95,4ad357aef964a520e0e320e3,Davinci Pizza,1,5.8,6,https://www.seamless.com/menu/da-vinci-pizza-44-water-st-new-york/94390,2021-01-09 15:26:00.472558
+96,5070607fe4b00d7436014279,Torpedo Pizza,1,,1,"",2021-01-09 15:26:00.720838
+97,3fd66200f964a52062e61ee3,Lombardi's Coal Oven Pizza,2,8.2,1320,"",2021-01-09 15:26:00.972312
+98,4b7c4b40f964a5204b8a2fe3,Big Al's Chicago Style Pizza,1,7.7,22,https://www.seamless.com/menu/big-als-pizza-9-thames-st-new-york/21131,2021-01-09 15:26:01.322398
+99,4d879b2ad5fab60cd043229c,99 Cent Pizza,1,5.4,8,https://www.seamless.com/menu/99-cent-supreme-pizza-44-willoughby-st-brooklyn/1716716,2021-01-09 15:26:01.577392
+100,4c053b49f56c2d7f4a551f66,Jiannetto's Pizza Truck (Downtown),1,,4,"",2021-01-09 15:26:01.866337
+101,45ebc982f964a52091431fe3,Joe's Pizza,1,8.9,1466,"",2021-01-09 15:26:02.116166
+102,4bf6ae6c94b2a59392deadee,Little Italy Gourmet Pizza,1,6.6,27,https://www.seamless.com/menu/little-italy-gourmet-pizza-11-park-pl-new-york/64701,2021-01-09 15:26:02.366732
+103,5fbe0150d9d8c32ba9cfca31,Siena Pizza,1,,0,"",2021-01-09 15:26:02.617363
+104,52698af411d29a41c427892c,Stage Door Pizza,1,6.5,26,https://www.seamless.com/menu/stage-door-catering-26-vesey-st-new-york/1403297,2021-01-09 15:26:02.830578
+105,4df6088da809141629aabfd2,2 Bros. Pizza,1,7.2,37,"",2021-01-09 15:26:03.069831
+106,4bc238adf8219c744286b410,Amore's Pizza Restaurant,1,6.6,18,https://www.seamless.com/menu/cafe-amores-pizzeria-ristorante-147-chambers-st-new-york/1431324,2021-01-09 15:26:03.322897
+107,4f3255d919836c91c7cda11b,Primo New York Pizza,1,,0,"",2021-01-09 15:26:03.572498
+108,44acde31f964a52013351fe3,Famous Ben's Pizza of SoHo,1,7.0,144,https://www.seamless.com/menu/famous-bens-pizza-spring-st-177-spring-st-new-york/64228,2021-01-09 15:26:03.929232
+109,4a5e147bf964a52001be1fe3,Not Ray's Pizza,1,8.5,144,https://www.seamless.com/menu/not-rays-pizzeria-694-fulton-st-brooklyn/81269,2021-01-09 15:26:04.165954
+110,4e4e4c35bd4101d0d7a71fa0,Pizza Cafe,1,,0,"",2021-01-09 15:26:04.424012
+111,4a875b51f964a520110420e3,Pomodoro Pizza,1,6.0,4,"",2021-01-09 15:26:04.766933
+112,5c18213c28374e002cb23f56,Jay St. Fresh 99¢ Pizza,1,,0,"",2021-01-09 15:26:05.361699
+113,4b8ab5d6f964a520647b32e3,Texas Fried Chicken & Pizza,1,,0,"",2021-01-09 15:26:05.566535
+114,4b6f389ff964a52016e52ce3,Marks Pizza,1,7.5,18,"",2021-01-09 15:26:05.859599
+115,57acc558498e036ce8f2b0b4,La Pizza & La Pasta,1,7.6,192,"",2021-01-09 15:26:06.116027
+116,4a9c8342f964a5206d3720e3,Pizza Town,1,7.6,31,"",2021-01-09 15:26:06.36362
+117,4c38a8a63849c92859d7bfb1,Brooklyn Heights Deli,1,7.8,41,https://www.seamless.com/menu/brooklyn-heights-deli-292-henry-st-brooklyn/275706,2021-01-09 16:42:30.039008
+118,4ab04d91f964a520f86620e3,Hanover Deli Gourmet,1,6.3,11,https://www.seamless.com/menu/hanover-gourmet-deli-new-management-3-hanover-sq-new-york/333312,2021-01-09 16:42:30.098039
+119,4a801d3bf964a520a4f41fe3,Bonafide Deli & Cafe,1,8.5,26,https://www.seamless.com/menu/bonafide-delicatessen-and-cafe-118-kane-st-brooklyn/322808,2021-01-09 16:42:30.354199
+120,4ba4015ff964a520e97638e3,All American Deli,1,6.3,17,https://www.seamless.com/menu/all-american-deli-42-water-st-new-york/279319,2021-01-09 16:42:30.599912
+121,4a748cd9f964a52092de1fe3,Fast and Fresh Burrito Deli,1,8.8,141,https://www.seamless.com/menu/fast-and-fresh-burrito-deli-84-hoyt-st-brooklyn/2116693,2021-01-09 16:42:31.010098
+122,4ab51dd7f964a520977220e3,Johnson Deli & Grocery,1,5.5,1,"",2021-01-09 16:42:31.340099
+123,51987465498ebbcf03b757b0,Loho Deli,1,6.9,12,https://www.seamless.com/menu/new-loho-gourmet-deli-204-clinton-st-new-york/1285995,2021-01-09 16:42:31.599244
+124,4b61faa6f964a520af2e2ae3,Champs Gourmet Deli,2,8.2,28,https://www.seamless.com/menu/champs-gourmet-deli-exchange-place-30-broad-st-new-york/102548,2021-01-09 16:42:31.909769
+125,4b4ab0c5f964a520028d26e3,New Island Deli & Grocery,1,,0,"",2021-01-09 16:42:32.152267
+126,4c803266d92ea09375c23572,New Way Deli,1,6.5,6,https://www.seamless.com/menu/new-way-deli--grocery-97-catherine-st-new-york/2055297,2021-01-09 16:42:32.454265
+127,4b41102bf964a52055c025e3,Sunny & Annie Gourmet Deli,1,9.3,438,"",2021-01-09 16:42:32.790716
+128,4d8406ee11da6a317eadb462,Downtown Gourmet Deli,1,,0,"",2021-01-09 16:42:33.101155
+129,4e42bdb6d4c0f73c52e2207d,Parkrow Deli & Pizzeria,1,,0,"",2021-01-09 16:42:33.342188
+130,5476ae43498e0c555a4ab31b,Garden Gourmet Deli,1,,2,https://www.seamless.com/menu/garden-gourmet-deli--grill-531-henry-st-brooklyn/331370,2021-01-09 16:42:33.597663
+131,4dfa743ac65bde78179db355,J & J Deli and Grocery,,,0,"",2021-01-09 16:42:33.860025
+132,4c3d556a7d002d7f5fb7af18,Jay Street Finest Deli,1,,1,"",2021-01-09 16:42:34.100907
+133,50611575498e8f79e53d0d6a,Highline Deli,1,6.4,7,https://www.seamless.com/menu/high-line-deli-ii-83-canal-st-new-york/278032,2021-01-09 16:42:34.356234
+134,43a7557bf964a5206b2c1fe3,Punjabi Grocery & Deli,1,8.9,262,https://www.seamless.com/menu/punjabi-grocery--deli-114-east-1st-street-new-york/2074412,2021-01-09 16:42:34.606134
+135,4c7d08f2744d8cfa4a39bc37,Skyline Gourmet Deli,1,6.6,9,https://www.seamless.com/menu/skyline-gourmet-64-willoughby-st-brooklyn/292112,2021-01-09 16:42:34.963172
+136,4b12a72af964a520e18b23e3,Stop 1 Deli,1,6.5,10,https://www.seamless.com/menu/stop-1-deli-122-suffolk-st-new-york/349543,2021-01-09 16:42:35.304491
+137,4c2f74173ffc952159978ff5,Mexican Grill 2000,1,8.2,37,"",2021-02-25 14:17:46.156395
+138,50ac092f498e9668b9fcc3d2,On The Border Mexican Grill & Cantina,2,7.3,58,https://www.grubhub.com/restaurant/on-the-border-45-middle-ave-holtsville/2114409,2021-02-25 14:17:46.272252
+139,4c26875ca852c928d2d7e66c,Viva La Vida Spanish and Mexican Restaurant,2,8.1,27,"",2021-02-25 14:17:46.519465
+140,4b00a12bf964a5201b4022e3,Chipotle Mexican Grill,2,7.8,84,"",2021-02-25 14:17:46.738936
+141,4b68c498f964a520dc8b2be3,Green Cactus Mexican Grill,1,7.5,16,"",2021-02-25 14:17:47.035874
+142,5d68b5b04f6b660008b5a0a7,Chipotle Mexican Grill,1,7.5,0,"",2021-02-25 14:17:47.95377
+143,4bd0a0bb046076b0e05c7071,Chipotle Mexican Grill,1,8.2,79,"",2021-02-25 14:17:48.185
+144,4f32756e19836c91c7d9d3e6,Muchacho Mexican Fare,,,0,"",2021-02-25 14:17:48.542919
+145,5a31c1c83abcaf1afcf0426f,Chipotle Mexican Grill,1,7.8,10,"",2021-02-25 14:17:48.768456
+146,5b66030a8496ca002c4a8a77,Miguel's Mexican Grill,1,,1,https://www.grubhub.com/restaurant/miguels-mexican-grill-792-ny-25a-miller-place/2451607,2021-02-25 14:17:49.058998
+147,4eab45c3d3e3846cbd05b775,Senor Taco Mexican Grill,1,7.8,8,"",2021-02-25 14:17:49.303267
+148,5c4aaa4bfb8e59002c84a3d1,Chipotle Mexican Grill,1,7.5,0,"",2021-02-25 14:17:49.532158
+149,5636aca8498ebe37486ded54,Chipotle Mexican Grill,1,7.6,19,"",2021-02-25 14:17:49.744343
+150,4c1a485db9f876b0705f7846,Chalupas Mexican Grill,1,,0,"",2021-02-25 14:17:49.964094
+151,5e957b390dcc5d0008421e5d,Chipotle Mexican Grill,1,,0,"",2021-02-25 14:17:50.261009
+152,602af28a19598213f926990e,Chipotle Mexican Grill,1,,0,"",2021-02-25 14:17:50.607898
+153,4e45ac0cfa76a07fde4f8d56,Cabo Fresh Mexican Grill,1,8.5,63,https://www.grubhub.com/restaurant/cabo-fresh-mexican-grill-2182-nesconset-hwy-stony-brook/2041219,2021-02-25 14:17:50.802827
+154,55494611498e11c2982033d7,Chimichanga Mexican Grill,1,,3,https://www.grubhub.com/restaurant/chimichanga-mexican-grill-600-portion-rd-ronkonkoma/2111686,2021-02-25 14:17:51.117121
+155,5ee1b8c345dddc3652564228,QDOBA Mexican Eats,1,,2,https://www.seamless.com/menu/qdoba-mexican-eats-1024-broadhollow-rd-farmingdale/1937276,2021-02-25 14:17:51.397846
+156,4b4b7ab0f964a5205a9d26e3,Three Amigo's Mexican Grill,1,8.3,15,https://www.grubhub.com/restaurant/three-amigos-fresh-mexican-grill-508-larkfield-rd-east-northport/1703151,2021-02-25 14:17:51.636652
+157,4f78e33ce4b0ca8cfe5d1000,Chipotle Mexican Grill,1,7.5,0,"",2021-02-25 14:17:51.832225
+158,4b59e171f964a520f29d28e3,Chipotle Mexican Grill,2,7.4,79,"",2021-02-25 14:17:52.01099
+159,4bd486bf29eb9c7480c391e1,Viva Juan Mexican Restaurant,3,8.1,27,https://www.grubhub.com/restaurant/viva-juan-mexican-restaurant-280-middle-country-rd-selden/2435386,2021-02-25 14:17:52.264572
+160,4fc26c1be4b0d516256e64e3,"taqueria, Mexican & Salvadorian Food",1,,1,https://www.grubhub.com/restaurant/taqueria-little-mexico-2-middle-country-rd-middle-island/1524094,2021-02-25 14:17:52.496797
+161,4dd6945b7d8b322663da36b7,Vallarta Mexican Grill,1,7.2,16,"",2021-02-25 14:17:52.702709
+162,5054db04e4b08e1d3d6d8a06,Chipotle Mexican Grill,1,7.4,1,"",2021-02-25 14:17:52.9349
+163,59050b5da4b51b124b32aa7e,Chipotle Mexican Grill,1,7.2,1,"",2021-02-25 14:17:53.183186
+164,56e21409498e7d17c4a7153e,Aunt Chiladas Mexican Grill,,,3,"",2021-02-25 14:17:53.405337
+165,600a5c0e21707240d6ea9a56,Sombrero Mexican Grill,1,,1,"",2021-02-25 14:17:53.646469
+166,4eca89126da1d10932202ac4,Holy Guacamole Mexican Grill,1,,5,"",2021-02-25 14:17:53.945766
+167,4be9a76f62c0c92803e9dfd4,Aegean Greek & Italian,1,7.6,15,"",2021-02-25 14:19:31.135143
+168,4c081686009a0f47828ce5bf,Tinas Italian Ices,1,8.2,12,"",2021-02-25 14:19:31.155335
+169,4c572433744a0f47b94dc8cb,Ralph's Famous Italian Ices,1,7.8,14,https://www.grubhub.com/restaurant/ralphs-italian-ices-128-east-main-street-patchogue/1791574,2021-02-25 14:19:31.375564
+170,4bcb9af768f976b09d7d6183,Ralph's Famous Italian Ices,1,7.8,10,"",2021-02-25 14:19:31.575743
+171,4eea400ca69def52caab3095,Mamas Italian Restaurant Pizza,2,7.6,14,https://www.grubhub.com/restaurant/mamas-1352-montauk-hwy-oakdale/2063107,2021-02-25 14:19:31.785521
+172,4bd4c6ef6798ef3be563628d,Bianca Luna Pizzeria + Italian Restaurant,2,,1,"",2021-02-25 14:19:32.050995
+173,4defd2c3887754a6af9cb85b,Italian Fishermen,,,0,"",2021-02-25 14:19:32.284189
+174,4b96ebe3f964a520eded34e3,Ralph's Famous Italian Ices,1,7.1,7,"",2021-02-25 14:19:32.569351
+175,4d07cd57f379a0933e02e83c,Ciro's Italian Restaurant,3,8.5,19,"",2021-02-25 14:19:32.770335
+176,4c6fecd8b5a5236aa4814e52,Frank & Maria's Italian Pork Store,2,7.9,5,https://www.grubhub.com/restaurant/frank-and-marias-10-west-main-street-bay-shore/1328475,2021-02-25 14:19:33.019682
+177,4c31fcff16adc9286f59c19c,Galeotafiore Italian Pork Store & Deli,1,,1,"",2021-02-25 14:19:33.284677
+178,4c5a1b1f2091a5931ec05ed0,Ralph's Famous Italian Ices,1,,4,https://www.grubhub.com/restaurant/ralphs-italian-ice-623-horseblock-road-farmingville/2058663,2021-02-25 14:19:33.636924
+179,54874026498e9649b85fbf88,Italian Jobs Brick and Stone Design,,,0,"",2021-02-25 14:19:33.866434
+180,4bb151a8f964a520fb8b3ce3,Ralph's Famous Italian Ices,1,,3,"",2021-02-25 14:19:34.135439
+181,4beb5d9862c0c9283d23e2d4,Ralph's Famous Italian Ices,1,7.6,9,"",2021-02-25 14:19:34.386669
+182,4e2629968877d0ffee7e9f69,Shorefront Italian Ices,1,,0,"",2021-02-25 14:19:34.596653
+183,4d3b4efe0333a0930e615d34,Ragazzi Italian Restaurant,2,8.0,52,https://www.grubhub.com/restaurant/ragazzi-italian-restaurant-2950-middle-country-road-nesconset/1553100,2021-02-25 14:19:34.775999
+184,4e73bd1aae6050af7a078b4c,Ralphs Famous Italian Ices,1,7.9,21,https://www.grubhub.com/restaurant/ralphs-italian-ice-1370-middle-country-rd-centereach/2058284,2021-02-25 14:19:35.023621
+185,4f954303e4b06ce859922547,Ralph's Famous Italian Ices,1,,3,"",2021-02-25 14:19:35.274321
+186,4bbfc6a64cdfc9b623ea9121,Ralph's Famous Italian Ices,1,,6,"",2021-02-25 14:19:35.577673
