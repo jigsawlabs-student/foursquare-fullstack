@@ -30,6 +30,12 @@ def venue_ratings(venues, requires_rating = False):
 def venue_locations(venues):
     return [venue['location'] for venue in venues if venue.get('location') ]
 
+def category_colors(venues):
+    categories = [venue.get('category', 'other') for venue in venues]
+    color_map = {'Mexican Restaurant': 'blue', 'Pizza Place': 'red', 'Italian': 'green', 'Bar': 'orange', 'Taco Place': 'yellow', "Food Truck": "purple"}
+    colors = [color_map.get(category, 'gray') for category in categories]
+    return colors
+
 def venue_likes_and_names(venues):
     likes = [venue['likes'] for venue in venues if venue.get('likes')]
     names = [venue['name'] for venue in venues if venue.get('name')]

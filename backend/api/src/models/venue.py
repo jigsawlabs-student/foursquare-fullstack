@@ -1,4 +1,4 @@
-import api.src.db as db
+import api.src.db.db as db
 import api.src.models as models
 class Venue():
     __table__ = 'venues'
@@ -43,9 +43,12 @@ class Venue():
     def to_json(self, cursor):
         venue_json = self.__dict__
         location = self.location(cursor)
+        categories = self.categories(cursor)
         if location:
             location_dict = {'lon': location.longitude, 'lat': location.latitude, 'address': location.address}
             venue_json['location'] = location_dict
+        if len(categories) > 0:
+            venue_json['category'] = categories[0].name
         return venue_json
 
 

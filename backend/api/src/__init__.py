@@ -28,7 +28,7 @@ def create_app():
         cursor = conn.cursor()
 
         venues = db.find_all(models.Venue, cursor)
-        venue_dicts = [venue.__dict__ for venue in venues]
+        venue_dicts = [venue.to_json(cursor) for venue in venues]
         return json.dumps(venue_dicts, default = str)
 
     @app.route('/venues/search')
