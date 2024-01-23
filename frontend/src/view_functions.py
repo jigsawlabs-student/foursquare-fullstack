@@ -1,9 +1,11 @@
 import requests
+
 API_URL = "http://127.0.0.1:5000/venues/search"
 CATEGORY_URL = "http://127.0.0.1:5000/categories"
 
 def find_venues(price):
     response = requests.get(API_URL, params = {'price': price})
+    
     return response.json()
 
 

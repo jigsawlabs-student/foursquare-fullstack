@@ -1,5 +1,7 @@
 import api.src.db.db as db
 import api.src.models as models
+
+
 class Venue():
     __table__ = 'venues'
     columns = ['id', 'foursquare_id', 'name', 'price',

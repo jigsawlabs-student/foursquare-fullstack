@@ -1,10 +1,9 @@
-from flask import Flask
-import simplejson as json
-from flask import request
-
-import api.src.models as models
 import api.src.db.db as db
-from settings import DB_USER, DB_NAME, DB_HOST, DB_PASSWORD, DEBUG, TESTING
+import api.src.models as models
+import simplejson as json
+from flask import Flask, request
+from settings import DB_HOST, DB_NAME, DB_PASSWORD, DB_USER, DEBUG, TESTING
+
 
 def create_app():
     """Create and configure an instance of the Flask application."""
@@ -36,7 +35,7 @@ def create_app():
         conn = db.get_db()
         cursor = conn.cursor()
 
-        params = dict(request.args)
+        params = dict(request.args) # {'price': 2}
         venues = models.Venue.search(params, cursor)
         venue_dicts = [venue.to_json(cursor) for venue in venues]
         return json.dumps(venue_dicts, default = str)
